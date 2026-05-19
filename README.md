@@ -96,15 +96,23 @@ From Colab, the source files are usually:
 
 ## Figures
 
-The figure generation script creates:
+### Figure 1: Fidelity vs Noise
+![Figure 1](figures/Fig1_Fidelity_vs_Noise.png)
 
-1. Bell-state fidelity across noise regimes
-2. Bell-state success rate across noise regimes
-3. Adaptive minus blind fidelity gain
-4. Fidelity by Bell state
-5. Adaptive fidelity heatmap at optimization level 3
-6. Transpilation cost comparison
-7. Routing-method stability in adaptive mode
+### Figure 2: Bell-State Performance
+![Figure 2](figures/Fig2_Bell_State_Performance.png)
+
+### Figure 3: Adaptive Heatmap
+![Figure 3](figures/Fig3_Adaptive_Heatmap.png)
+
+### Figure 4: Circuit Depth
+![Figure 4](figures/Fig4_Circuit_Depth.png)
+
+### Figure 5: Routing Comparison
+![Figure 5](figures/Fig5_Routing_Comparison.png)
+
+### Figure 6: Optimization Impact
+![Figure 6](figures/Fig6_Optimization_Impact.png)
 
 ## Limitations
 
