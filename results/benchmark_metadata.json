@@ -1,0 +1,121 @@
+{
+  "versions": {
+    "qiskit": "2.1.0",
+    "qiskit-aer": "0.17.1",
+    "qiskit-ibm-runtime": "0.40.1",
+    "numpy": "2.2.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.0",
+    "seaborn": "0.13.2"
+  },
+  "seed": 42,
+  "shots": 8192,
+  "backend": "fake_jakarta",
+  "num_qubits": 7,
+  "directed_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "blind_layout": [
+    0,
+    1
+  ],
+  "adaptive_layout": [
+    4,
+    6
+  ],
+  "adaptive_path": [
+    4,
+    5,
+    6
+  ],
+  "one_qubit_scale": {
+    "0": 1.28,
+    "1": 1.28,
+    "2": 1.16,
+    "3": 0.92,
+    "4": 0.76,
+    "5": 0.76,
+    "6": 0.76
+  },
+  "cx_scale": {
+    "(0, 1)": 5.8,
+    "(1, 2)": 1.35,
+    "(1, 3)": 1.35,
+    "(3, 5)": 1.35,
+    "(4, 5)": 0.42,
+    "(5, 6)": 0.42
+  },
+  "noise_levels": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1
+  ],
+  "optimization_levels": [
+    1,
+    2,
+    3
+  ],
+  "routing_methods": [
+    "sabre",
+    "lookahead"
+  ],
+  "noise_adaptive_settings": [
+    true,
+    false
+  ]
+}
