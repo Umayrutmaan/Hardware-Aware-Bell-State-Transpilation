@@ -43,15 +43,13 @@ The main outputs are a reproducible CSV dataset, benchmark metadata, and publica
 │   ├── final_journal_data.csv
 │   └── benchmark_metadata.json
 ├── figures/
-│   ├── Fig1_Fidelity_vs_Noise.png
-│   ├── Fig2_Success_Rate_vs_Noise.png
-│   ├── Fig3_Adaptive_Fidelity_Gain.png
-│   ├── Fig4_Bell_State_Performance.png
-│   ├── Fig5_Adaptive_Heatmap.png
-│   ├── Fig6_Transpilation_Cost.png
-│   └── Fig7_Routing_Optimization.png
-└── docs/
-    └── monograph.pdf
+   ├── Fig1_Fidelity_vs_Noise.png
+   ├── Fig2_Success_Rate_vs_Noise.png
+   ├── Fig3_Adaptive_Fidelity_Gain.png
+   ├── Fig4_Bell_State_Performance.png
+   ├── Fig5_Adaptive_Heatmap.png
+   ├── Fig6_Transpilation_Cost.png
+   └── Fig7_Routing_Optimization.png
 ```
 
 ## How to Reproduce
