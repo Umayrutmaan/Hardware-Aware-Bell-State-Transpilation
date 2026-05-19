@@ -1,7 +1,6 @@
 # Hardware-Aware Bell-State Transpilation Benchmark
 
-This repository contains the code, data, figures, and monograph materials for my bachelor's research project on Bell-state transpilation under heterogeneous noise.
-
+This repository contains the code, data, figures, and reproducibility materials for my bachelor's monograph project, **Best Transpiler Settings for Noise-Resilient Bell State Circuits**.
 The project compares a blind standard initial layout with a hardware-aware adaptive initial layout on the `FakeJakartaV2` backend topology. The benchmark evaluates Bell-state fidelity, measurement success rate, circuit depth, total gate count, and CX gate count across optimization levels, routing methods, and depolarizing noise scales.
 
 ## Research Question
