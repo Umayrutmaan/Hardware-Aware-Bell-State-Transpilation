@@ -37,8 +37,6 @@ The main outputs are a reproducible CSV dataset, benchmark metadata, and publica
 │   └── bell_benchmark.py
 ├── scripts/
 │   └── make_bell_figures.py
-├── data/
-│   └── README.md
 ├── results/
 │   ├── final_journal_data.csv
 │   └── benchmark_metadata.json
