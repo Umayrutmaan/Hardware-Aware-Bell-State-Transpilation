@@ -21,11 +21,24 @@ I ran each model 10 times with 10,000 shots per run. BMF just counts how often y
 
 | Model | Mean BMF | Std Dev | Mean Error Rate |
 |---|---|---|---|
-| Custom (hand-built) | ~0.8027 | ±0.0039 | ~0.1973 |
-| FakeVigoV2 (IBM) | ~0.9028 | ±0.0031 | ~0.0972 |
-| Difference (Custom − FakeVigo) | −0.10 | — | — |
+| Custom (hand-built) | ~0.8040 | ±0.0034 | ~0.1960 |
+| FakeVigoV2 (IBM) | ~0.9018 | ±0.0030 | ~0.0982 |
+| Difference (Custom − FakeVigo) | −0.0977 | — | — |
 
 The FakeVigo model does better because IBM's real calibration numbers are lower than the conservative estimates I used in my custom model.
+
+## Figure
+
+### Bell State BMF Analysis
+
+![Bell State BMF Analysis](https://raw.githubusercontent.com/Umayrutmaan/Hardware-Aware-Bell-State-Transpilation/main/figures/Bell_state_bmf_analysis.png)
+
+The figure has 4 panels:
+
+1. **Mean BMF ± 1σ** — bar chart for both models, with ideal BMF = 1.0 as reference
+2. **Mean Error Rate** — bar chart showing 1 − BMF for each model
+3. **Per-run scatter** — all 10 individual BMF values with mean and ±1σ lines
+4. **Outcome distribution** — probability of each result from the last run
 
 ## Files
 
@@ -34,7 +47,6 @@ The FakeVigo model does better because IBM's real calibration numbers are lower 
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-├── scripts/
-│   └── bell_state_analysis.py
+├── bell_state_analysis.py
 └── figures/
-    └── ![Bell State BMF Analysis](figures/Bell_state_bmf_analysis.png)
+    └── Bell_state_bmf_analysis.png
