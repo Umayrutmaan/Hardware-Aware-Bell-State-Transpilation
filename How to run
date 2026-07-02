@@ -1,0 +1,8 @@
+## How to Run
+
+**Option 1 — Google Colab (no install needed)**
+
+Open a new Colab notebook, paste this in the first cell and run it:
+
+```python
+!pip install qiskit qiskit-aer qiskit-ibm-runtime matplotlib numpy
