@@ -37,4 +37,4 @@ The FakeVigo model does better because IBM's real calibration numbers are lower 
 ├── scripts/
 │   └── bell_state_analysis.py
 └── figures/
-    └── Bell_state_bmf_analysis.png
+    └── ![Bell State BMF Analysis](figures/Bell_state_bmf_analysis.png)
